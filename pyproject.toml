@@ -1,0 +1,28 @@
+[project]
+name = "musho"
+version = "0.1.0"
+description = "MUSHO is short for Muryōkūsho(無量空処) is a knowledge and information management platform."
+authors = [
+    {name = "MuskoM",email = "mateusz@musko.codes"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi (>=0.115.12,<0.116.0)",
+    "uvicorn (>=0.34.2,<0.35.0)",
+    "httpx (>=0.28.1,<0.29.0)",
+    "sqlalchemy (>=2.0.41,<3.0.0)"
+]
+
+[tool.poetry]
+package-mode = false
+
+[tool.pytest.ini_options]
+pythonpath = "src"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.5"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

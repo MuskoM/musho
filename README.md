@@ -1,8 +1,8 @@
 # MUSHO
 
-MUSHO is short for Muryōkūsho(無量空処) is a knowledge and information management platform.
+MUSHO short for Muryōkūsho(無量空処) is a knowledge and information management platform.
 
->[!info] This project is currently in very early development phase and its direction can change drastically 
+>This project is currently in very early development phase and its direction can change drastically 
 
 # Background
 
